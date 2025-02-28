@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encoding/json"
+	"MyFirstGoProject/pacote"
 	. "fmt"
 	_ "fmt"
 )
@@ -9,5 +9,5 @@ import (
 func main() {
 	Println("Hello world!")
 
-	json.Marshal("sim sim")
+	pacote.PrintMinha()
 }
