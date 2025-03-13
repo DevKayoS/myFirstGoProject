@@ -35,13 +35,13 @@ func doDeferFile() {
 	}
 	defer file.Close()
 
-	if err := x(); err != nil {
-		panic(err)
-	}
+	// if err := x(); err != nil {
+	// 	panic(err)
+	// }
 
-	if err := x(); err != nil {
-		panic(err)
-	}
+	// if err := x(); err != nil {
+	// 	panic(err)
+	// }
 }
 
 var arquivos = []string{"foo.txt", "bar.txt", "baz.txt"}
